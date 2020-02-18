@@ -1,0 +1,32 @@
+private void populateChart() {
+
+        ArrayList<Entry> entries = new ArrayList<>();
+        entries.add(new BarEntry(2f, 0));
+        entries.add(new BarEntry(4f, 1));
+        entries.add(new BarEntry(6f, 2));
+        entries.add(new BarEntry(8f, 3));
+        entries.add(new BarEntry(7f, 4));
+        entries.add(new BarEntry(3f, 5));
+
+        LineDataSet set1 = new LineDataSet(entries, "Rain Gauge");
+        set1.setFillAlpha(110);
+        set1.setLineWidth(2.5f);
+        set1.setColor(Color.rgb(28, 28, 26));
+        set1.setCircleColor(Color.rgb(240, 238, 70));
+        set1.setCircleRadius(2f);
+        set1.setFillColor(Color.rgb(240, 238, 70));
+        set1.setMode(LineDataSet.Mode.CUBIC_BEZIER);
+        set1.setDrawValues(true);
+        set1.setValueTextSize(15f);
+        set1.setValueTextColor(Color.rgb(240, 238, 70));
+        set1.setLineWidth(2f);
+        set1.setAxisDependency(YAxis.AxisDependency.LEFT);
+
+        ArrayList<ILineDataSet> dataSets = new ArrayList<>();
+        dataSets.add(set1);
+        LineData lineData = new LineData(dataSets);
+
+        lineChart.animateXY(3000, 3000);
+        lineChart.setVisibleXRangeMaximum(200); // allow 20 values to be displayed at once on the x-axis, not more
+        lineChart.moveViewToX(10);
+    }

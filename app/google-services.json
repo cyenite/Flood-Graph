@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "995172798997",
+    "firebase_url": "https://ikofood-965f3.firebaseio.com",
+    "project_id": "ikofood-965f3",
+    "storage_bucket": "ikofood-965f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995172798997:android:c57c97a9233942f09a341c",
+        "android_client_info": {
+          "package_name": "com.project.grace.floodmeterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995172798997-t6e8k981m5oqvbuiultbbcesmg4po45r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJJ5hUrDEB-yR5cNci1ta3YW6Fb_KOzBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995172798997-t6e8k981m5oqvbuiultbbcesmg4po45r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995172798997:android:1268c1ae142bedf8",
+        "android_client_info": {
+          "package_name": "com.trendy.ikofood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995172798997-t6e8k981m5oqvbuiultbbcesmg4po45r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJJ5hUrDEB-yR5cNci1ta3YW6Fb_KOzBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995172798997-t6e8k981m5oqvbuiultbbcesmg4po45r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,4 @@
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Configure shared external storage path, path value is relative to your device external storage root path ( /sdcard ). -->
+    <external-path name="CameraPicture" path="Android/data/com.example.me.flood/cache/" />
+</paths>
